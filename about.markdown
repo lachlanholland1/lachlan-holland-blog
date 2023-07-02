@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/lachholland/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/lachholland/jekyll)
-
-
-[jekyll-organization]: https://github.com/lachholland
+ Experienced Software Engineer who has built API’s commercially. Graduated with a Bachelor’s in Information Technology (Computer Science) from Queensland University of Technology. Skilled in JavaScript, Python, SQL and other programming languages.
