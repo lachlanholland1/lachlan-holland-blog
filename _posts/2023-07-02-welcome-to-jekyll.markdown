@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Brisbane Gateway Resort Website"
-excerpt: "A multi-stage recommendation system built using PyTorch"
+excerpt: "I built the website for Brisbane Gateway Resort using React, NextJS and ExpressJS. The website interfaces with the property management system API to dynamically display accommodation availability and pricing"
 date:   2023-07-02 19:42:36 +1000
 ---
 

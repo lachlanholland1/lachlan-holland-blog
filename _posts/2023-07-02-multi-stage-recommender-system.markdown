@@ -2,8 +2,8 @@
 layout: post
 comments: true
 title:  "Multi-stage Recommender System"
-excerpt: "A multi-stage recommendation system built using PyTorch"
-date:   2023-07-02 19:42:36 +1000
+excerpt: "A multi-stage recommendation system built using PyTorch for the H&M Personalized Fashion Recommendations Kaggle competition"
+date:   2023-07-02 19:42:35 +1000
 ---
 
 
