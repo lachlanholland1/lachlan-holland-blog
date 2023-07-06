@@ -1,8 +1,9 @@
 ---
 layout: post
+comments: true
 title:  "Multi-stage Recommender System"
+excerpt: "A multi-stage recommendation system built using PyTorch"
 date:   2023-07-02 19:42:36 +1000
-categories: jekyll update
 ---
 
 
