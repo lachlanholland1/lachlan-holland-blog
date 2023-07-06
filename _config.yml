@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Experienced Software Engineer who has built API’s commercially. Graduated with a Bachelor’s in Information Technology (Computer Science) from Queensland University of Technology. Skilled in JavaScript, Python, SQL and other programming languages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  lachholland
+github_username:  lachlanholland1
 
 # Build settings
 theme: minima
