@@ -2,8 +2,8 @@
 layout: post
 comments: true
 title:  "Brisbane Gateway Resort Website"
-excerpt: "I built the website for Brisbane Gateway Resort using React, NextJS and ExpressJS. The website interfaces with the property management system API to dynamically display accommodation availability and pricing"
-date:   2023-07-02 19:42:36 +1000
+excerpt: "The website for Brisbane Gateway Resort using React, NextJS and ExpressJS. The website interfaces with the property management system API to dynamically display accommodation availability and pricing"
+date:   2023-06-02 19:42:36 +1000
 ---
 
 I built the website for Brisbane Gateway Resort using React, NextJS and ExpressJS. The website interfaces with the property management system API to dynamically display accommodation availability and pricing. I learnt alot about frontend web development and React. I designed and built the website's user interface to be easy to use inorder to promote guest's to book online rather than over the phone or in person.
