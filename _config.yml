@@ -1,9 +1,9 @@
 # Site settings
 title: Lachlan Holland Blog
 email: 
-description: "Welcome to my blog."
+description: "Hi, I'm Lachlan. Welcome to my blog!"
 baseurl: ""
-url: "http://lachlanholland1.github.io"
+url: "https://lachlanholland.com"
 github_username:  lachlanholland1
 
 # Build settings

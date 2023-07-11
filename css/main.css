@@ -69,8 +69,8 @@ a:visited {
 /* Site header */
 
 .site-header {
-    border-top: 5px solid #333;
-    border-bottom: 1px solid #e8e8e8;
+    padding: 20px;
+    border-bottom: 1px solid #d1d1d1;
     min-height: 56px;
     background-color: white;
 }
@@ -103,10 +103,47 @@ a:visited {
     letter-spacing: -.5px;
 }
 
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .profile-card-text {
+        padding-top: 20px;
+    }
+}
+
+
+.lachlan-holland {
+    font-size: 30px;
+}
+
+@media (min-width: 768px) {
+
+    /* For desktops */
+    .profile-card {
+        flex-direction: row;
+    }
+
+    .profile-card-text {
+        margin: 0;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin: 0;
+        position: absolute;
+        padding-left: 300px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+}
+
 /* Site footer */
 
 .site-footer {
-    border-top: 1px solid #e8e8e8;
+    border-top: 1px solid #d1d1d1;
     padding: 30px 0;
 }
 
@@ -183,6 +220,15 @@ a:visited {
 
 /* Home styles */
 /* ----------------------------------------------------------*/
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #d1d1d1;
+    margin: 1em 0;
+    padding: 0;
+}
 
 .home h1 {
     margin-bottom: 25px;
@@ -772,4 +818,72 @@ a:visited {
         margin: 0 0 15px;
     }
 
+}
+
+
+
+
+/*  experience timeline */
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.timespan {
+    grid-column: span 1;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 5px;
+    color: #bbb;
+}
+
+.ico {
+    grid-column: span 1;
+    vertical-align: top;
+    border-left: 2px solid #cfcfcf;
+    position: relative;
+}
+
+.entry-dot {
+    position: absolute;
+    top: 0px;
+    left: -8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    background-color: #cfcfcf;
+    border: 2px solid white;
+}
+
+.ico img {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 80px;
+    margin-left: 10px;
+}
+
+.desc {
+    grid-column: span 10;
+    vertical-align: top;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+div {
+    display: block;
+}
+
+.profile_picture {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    object-fit: cover;
 }
