@@ -71,7 +71,6 @@ a:visited {
 .site-header {
     padding: 20px;
     border-bottom: 1px solid #d1d1d1;
-    min-height: 56px;
     background-color: white;
 }
 
@@ -118,6 +117,12 @@ a:visited {
 
 .lachlan-holland {
     font-size: 30px;
+    color: #000 !important;
+    font-weight: 300 !important;
+}
+
+.no-text-decoration {
+    text-decoration: none !important;
 }
 
 @media (min-width: 768px) {
