@@ -388,6 +388,10 @@ hr {
     text-align: center;
 }
 
+.styled-image {
+    max-width: 100%;
+}
+
 .svgdiv {
     width: 100%;
     text-align: center;
